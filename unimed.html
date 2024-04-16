@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedShop</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header-row">
+      <div class="container-fluid header-section">
+        <div class="col-12 col-lg-3 header-left-side">
+          <a class="navbar-brand header-left" href="#">
+            <img
+              class="logo"
+              src="../../Assets/Images/Mask Group 269.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse header-right" id="navbarNav">
+          <div class="col-11">
+            <div class="header-right-side">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img
+                      class="social-icon"
+                      src="../../Assets/Images/linkedin.png"
+                      alt="LinkedIn"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img
+                      class="social-icon"
+                      src="../../Assets/Images/x.png"
+                      alt="X"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img
+                      class="social-icon"
+                      src="../../Assets/Images/instagram.png"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <button class="contact-button">Contact us</button>
+                </li>
+              </ul>
+            </div>
+            <div class="header-right-side">
+              <ul class="navbar-nav ms-auto header-right-side">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-style"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Divisions
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  ></ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-style" aria-current="page" href="#"
+                    >Partners</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-style" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-style" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-style" href="#">MEDIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar-brand header-right" href="#">
+                    <img src="../../Assets/Images/search.png" alt="search" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div className="searchBox1">
+        <img src="./Assets/Images/Icon feather-search.png" alt="searchIcon" />
+        <input type="text" placeholder="Search" />
+        <button className="contact-button2">Search</button>
+        <div className="close1">
+          <img  src=./Assets/Images/closeIcon.png alt="closeIcon" />
+        </div>
+      </div> -->
+    </nav>
+
+    <div class="banner-container container-fluid px-0">
+      <div class="banner__text">
+        <h2 class="banner__heading">MedShop</h2>
+        <p class="banner__paragraph">
+          One-Stop Destination for Medical Essentials and Wellness Solutions
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid px-0">
+      <div class="row health-container">
+        <div class="col-md-6 health-container__section1">
+          <img
+            class="health-container__image"
+            src="./Assets/Images/health.png"
+            alt="health"
+          />
+        </div>
+        <div class="col-md-6 health-container__section2">
+          <div class="health-container__heading">
+            <p class="health-container__heading-text">
+              Find All The<span>Health Essentials Here</span>
+            </p>
+          </div>
+          <div class="row health-container__dataSection">
+            <!-- Repeat this block for each product category -->
+            <div class="col-md-6 col-lg-4 health-container__healthEssentials">
+              <div class="health-container__card health-container__card--blue">
+                <img
+                  class="health-container__icon"
+                  src="./Assets/Images/medicalEquipment.png"
+                  alt="medicalEquipment"
+                />
+              </div>
+              <div class="card-body">
+                <h6>Medical Equipment</h6>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 health-container__healthEssentials">
+              <div class="health-container__card health-container__card--green">
+                <img
+                  class="health-container__icon"
+                  src="./Assets/Images/physiotherapyProduct.png"
+                  alt="physiotherapyProduct"
+                />
+              </div>
+              <div class="card-body">
+                <h6>Physiotherapy Products</h6>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 health-container__healthEssentials">
+              <div class="health-container__card health-container__card--green">
+                <img
+                  class="health-container__icon"
+                  src="./Assets/Images/homeCareDevices.png"
+                  alt="homeCareDevices"
+                />
+              </div>
+              <div class="card-body">
+                <h6>Homecare Devices</h6>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 health-container__healthEssentials">
+              <div class="health-container__card health-container__card--blue">
+                <img
+                  class="health-container__icon"
+                  src="./Assets/Images/generalHealthcareProducts.png"
+                  alt="generalHealthcareProducts"
+                />
+              </div>
+              <div class="card-body">
+                <h6>General Healthcare Products</h6>
+              </div>
+            </div>
+            <!-- ... other product categories ... -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-0">
+      <div class="row medshop-container">
+        <div class="col-md-6 container-left">
+          <div class="inner-container-left">
+            <h6 class="heading-text">Medshop<span>AHD</span></h6>
+            <p class="secondHeader">Lorem ipsum dolor sit amet</p>
+            <p class="content">
+              Medshop Pharmacy, your trusted health partner, offers convenience,
+              expert guidance, and personalized service for your well-being.
+            </p>
+            <div class="location d-flex">
+              <img
+                class="map"
+                src="./Assets/Images/map-pin.png"
+                alt="Location Map"
+              />
+              <div class="location-content">
+                <p class="content-location">
+                  <span>Staywell Pharmacy</span><br />789 Oasis Street, Dubai
+                  Health District, Lorem Emirates, PO Box 12345, Dubai
+                </p>
+                <button class="find-button"><span>Find us On Map</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 container-right">
+          <img
+            class="medshop"
+            src="./Assets/Images/medshop.png"
+            alt="Medshop Exterior"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="product-container">
+        <div class="product-slide">
+          <img class="product-image" src="./Assets/Images/product1.png" alt="Product 1 description" />
+        </div>
+        <div class="product-slide">
+          <img class="product-image" src="./Assets/Images/product2.png" alt="Product 2 description" />
+        </div>
+        <div class="product-slide">
+          <img class="product-image" src="./Assets/Images/product3.png" alt="Product 3 description" />
+        </div>
+        <div class="product-slide">
+          <img class="product-image" src="./Assets/Images/product4.png" alt="Product 4 description" />
+        </div>
+      </div>
+
+    <section class="discount-product-container">
+      <header class="mainHeader">
+        <div class="header">
+          <h1 class="headerText">
+            Exclusive <span class="highlight">Discounts</span> on <br />
+            Essential <span class="highlight">Wellness</span> Products
+          </h1>
+        </div>
+        <div class="shutterStock">
+          <img
+            class="shutterStock-image"
+            src="./Assets/Images/shutterstock_1908560635.png"
+            alt="Discounted Wellness Products"
+            loading="lazy"
+          />
+        </div>
+      </header>
+    </section>
+
+    <footer class="footer-container">
+      <div class="footer-header">
+        <img
+          class="logo"
+          src="./Assets/Images/Group 95.png"
+          alt="Unimed Logo"
+        />
+        <ul class="nav unOrder-List">
+          <li class="active-Tab">pharma</li>
+          <li class="tab">medical</li>
+          <li class="tab">consumer</li>
+          <li class="tab">healthcare retail</li>
+        </ul>
+      </div>
+      <hr class="border-line" />
+      <div class="footer-content">
+        <div class="footer-inner-content">
+          <div class="inner-section1">
+            <h4 class="inner-section1-header">Get In Touch</h4>
+            <p class="inner-section1-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              augue dolor, finibus a efficitur ut, mattis ac nisi.
+            </p>
+            <div class="info-section">
+              <img
+                class="icon"
+                src="./Assets/Images/Group 99.png"
+                alt="Email Icon"
+              />
+              <p class="info-section1-content">info@unimed.com</p>
+            </div>
+            <div class="info-section">
+              <img
+                class="icon"
+                src="./Assets/Images/phone-call.png"
+                alt="Phone Icon"
+              />
+              <p class="info-section1-content">+971 8945213979</p>
+            </div>
+          </div>
+          <div class="inner-section2">
+            <h4 class="inner-section2-header">Quick Links</h4>
+            <div class="inner-section2-content">
+              <ul class="inner-section">
+                <li class="inner-section2-content-text">Partners</li>
+                <li class="inner-section2-content-text">Products</li>
+                <li class="inner-section2-content-text">About us</li>
+                <li class="inner-section2-content-text">UMD standards</li>
+              </ul>
+              <ul>
+                <li class="inner-section2-content-text">Careers</li>
+                <li class="inner-section2-content-text">Media</li>
+                <li class="inner-section2-content-text">Contact us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-line" />
+      <div class="footer-header">
+        <p class="footer-inner-section">
+          Copyright 2024 © Unimed. All Rights Reserved.
+        </p>
+        <ul class="footer-bottom">
+          <li class="footer-text">Follow Us On</li>
+          <li>
+            <a href="https://www.linkedin.com"
+              ><img
+                class="social-icon"
+                src="./Assets/Images/linkedin.png"
+                alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.xing.com"
+              ><img class="social-icon" src="./Assets/Images/x.png" alt="Xing"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com"
+              ><img
+                class="social-icon"
+                src="./Assets/Images/instagram.png"
+                alt="Instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Include Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-POYPSGT/RTgId7VUdR1QqnyOpTtM35WUNLr9KT8Dp5JR2X2UEO2vJCHw8cqYXfT5"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
